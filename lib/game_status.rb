@@ -40,7 +40,8 @@ end
 def winner(board)
   if won?(board)
     winner_combo = won?(board)
-    
+    board.detect do |token|
+      
   end
 end
     
