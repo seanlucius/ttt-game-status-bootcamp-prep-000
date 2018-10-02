@@ -43,7 +43,7 @@ def winner(board)
     board[winner_combo[0]]
     
   else 
-    false
+    nil 
       
   end
 end
